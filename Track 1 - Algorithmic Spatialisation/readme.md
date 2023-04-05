@@ -27,7 +27,7 @@ Note: if this fails for some reason (i.e. an error post in the Post window), you
 Select from the menu: 
 Language --> Recompile Class Library.
 
-- Download and install the ATK Kernels, Matrices and Soundfiles by running the following lines one by one, waiting for each process to complete before running the next:
+- Download and install the ATK Kernels, Matrices and Soundfiles by running the following lines one by one. Wait for each process to complete before running the next:
 ```
 Atk.downloadKernels;
 Atk.downloadMatrices;
