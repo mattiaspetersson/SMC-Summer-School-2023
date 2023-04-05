@@ -1,4 +1,4 @@
-# Algorithmic Spatialization with SuperCollider
+# Algorithmic Spatialisation with SuperCollider
 
 In this workshop we explore different ways of working with algorithmically controlled spatialization, using SuperCollider and the Ambisonics ToolKit library. To provide an interactive layer for gestural control, we will also work with the integration of continuous data streams from various sensors. The recordings made on the first day will be used as source material and a point of departure for our experiments.
 
