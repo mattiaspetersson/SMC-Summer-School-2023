@@ -10,7 +10,7 @@ In this workshop we explore different ways of working with algorithmically contr
 - [SuperCollider](https://supercollider.github.io/)
 - [SuperCollider sc3-plugins](https://supercollider.github.io/sc3-plugins/)
 
-The sc3-plugins are installed by moving the folder into the Extensions folder in SuperCollider's Application Support directory. To find and open this directory, start SuperCollider and run the following line (by placing your cursor on somewhere on that line and press CMD+RTN (Mac) or CTRL+RTN (Linux/Windows):
+The sc3-plugins are installed by moving the folder into the Extensions folder in SuperCollider's Application Support directory. To find and open this directory, start SuperCollider and run the following line by placing your cursor on somewhere on that line and press CMD+RTN (Mac) or CTRL+RTN (Linux/Windows):
 
 ```Platform.userExtensionDir.openOS;```
 
