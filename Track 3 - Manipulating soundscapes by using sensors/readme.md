@@ -7,5 +7,5 @@ select/mix sounds and to manage certain sound parameters such as volume, equaliz
 and spatialization.
 
 ## Preparations before the workshop
-### 1. Download and install Pure Data (if you don't have it already).
+### 1. Download and install the current stable release of Pure Data (if you don't have it already).
 - [PD](http://msp.ucsd.edu/software.html)
