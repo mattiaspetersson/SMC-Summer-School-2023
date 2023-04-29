@@ -6,7 +6,7 @@ Inertial sensors, including those embedded in the participants' smartphones, wil
 select/mix sounds and to manage certain sound parameters such as volume, equalization,
 and spatialization.
 
-## Preparations before the workshop
+## Preparation before the workshop
 ### 1. Download and install the current vanilla distribution of Pure Data, if you don't have it already).
 - [PD](http://msp.ucsd.edu/software.html)
 
