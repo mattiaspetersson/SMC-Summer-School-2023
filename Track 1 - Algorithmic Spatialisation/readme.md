@@ -34,7 +34,10 @@ Atk.downloadMatrices;
 Atk.downloadSounds;
 ```
 
-### 4. Install files for binaural listening:
+### 4. Install Henrik Frisk's Decoders for Lilla Salen
+- Download the folder above and place it inside SuperCollider's Extensions folder
+
+### 5 (Optional). Install files for working with Ambisonics and binaural listening in your DAW:
 
 - [Convolution files for binaural listening](https://github.com/friskgit/kmh_ls/raw/master/binaural/convol_presets.zip)
 - [IEM Plug-in Suite](https://plugins.iem.at/download/)
