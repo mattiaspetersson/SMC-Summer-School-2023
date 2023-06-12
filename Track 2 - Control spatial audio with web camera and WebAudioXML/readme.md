@@ -14,11 +14,11 @@ Before we start the workshop, please make sure to:
 ## WAXML Documentation:
 https://github.com/hanslindetorp/WebAudioXML/wiki
 
-### <var> and Parameter Mapping
+### \<var> and Parameter Mapping
 https://github.com/hanslindetorp/WebAudioXML/wiki/var
 https://github.com/hanslindetorp/WebAudioXML/wiki/Parameter-Mapping
 
-### <OscillatorNode>
+### \<OscillatorNode>
 https://github.com/hanslindetorp/WebAudioXML/wiki/OscillatorNode
 
 ### <BiquadFilterNode>
