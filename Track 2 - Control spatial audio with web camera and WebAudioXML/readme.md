@@ -61,4 +61,3 @@ https://github.com/google/mediapipe/blob/master/docs/solutions/face_mesh.md
 
 ### Face map:
 https://github.com/tensorflow/tfjs-models/blob/master/face-landmarks-detection/mesh_map.jpg
-![image](https://github.com/mattiaspetersson/SMC-Summer-School-2023/assets/15527600/ad1c29dd-865f-4a99-a64d-3cb2e2b7d1ce)
