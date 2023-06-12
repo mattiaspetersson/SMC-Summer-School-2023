@@ -21,10 +21,10 @@ https://github.com/hanslindetorp/WebAudioXML/wiki/Parameter-Mapping
 ### \<OscillatorNode>
 https://github.com/hanslindetorp/WebAudioXML/wiki/OscillatorNode
 
-### <BiquadFilterNode>
+### \<BiquadFilterNode>
 https://github.com/hanslindetorp/WebAudioXML/wiki/BiquadFilterNode
 
-### <GainNode>
+### \<GainNode>
 https://github.com/hanslindetorp/WebAudioXML/wiki/GainNode
 
 
