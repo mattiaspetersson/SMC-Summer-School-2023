@@ -20,6 +20,18 @@ https://github.com/hanslindetorp/WebAudioXML/wiki/Parameter-Mapping
 
 ### \<OscillatorNode>
 https://github.com/hanslindetorp/WebAudioXML/wiki/OscillatorNode
+ 
+### \<Noise>
+ White noise
+https://github.com/hanslindetorp/WebAudioXML/wiki/Noise
+ 
+### \<ObjectBasedAudio>
+3D audio object with settings for audio file, 3D position, loop, convolution and more.
+https://github.com/hanslindetorp/WebAudioXML/wiki/ObjectBasedAudio
+ 
+### \<AmbientAudio>
+For looped sound like ambient loops and granular synthesis
+<https://github.com/hanslindetorp/WebAudioXML/wiki/AmbientAudio
 
 ### \<BiquadFilterNode>
 https://github.com/hanslindetorp/WebAudioXML/wiki/BiquadFilterNode
