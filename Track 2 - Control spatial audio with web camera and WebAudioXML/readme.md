@@ -3,6 +3,13 @@
 The lab is about mapping body gestures to sound. We will use MediaPipe from Google ( https://developers.google.com/mediapipe)  that uses machine learning models for recognizing the body from a video stream like a web camera. We will map the positions of the joints to various audio parameters in order to create body gesture controlled instruments.
 We will use WebAudioXML (WAXML) ( https://github.com/hanslindetorp/WebAudioXML) for the mapping strategies. WAXML can be implemented in any web page and runs on any device with a standard web browser. It is an XML language and parser that makes it possible to configure synthesizers, mixers, effect chains and adaptive music using XML only.
 In this workshop we will focus on using the <var> object and its features for mapping values to fit the range of a parameter. We will then the frequency of an <OscillatorNode> and a <BiquadFilterNode> and also control the volume using the <GainNode>. This makes it possible to build a digital musical instrument that is controlled by your body.
+ 
+## Introduction to Subtractive Synthesis:
+https://editor.p5js.org/hanslindetorp/sketches/uO50sQ_cm
+ 
+## Introduction to Granular Synthesis
+
+
 Before we start the workshop, please make sure to:
 
 1. Create an account and login at  https://editor.p5js.org/
