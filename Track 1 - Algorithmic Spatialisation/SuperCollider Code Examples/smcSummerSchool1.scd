@@ -9,12 +9,14 @@ SuperCollider is divided into 3 main parts:
 sclang communicates with scsynth by sending OSC messages to this server. This involves allocating buffers, defining and playing synths as well as signal flows. These OSC messages can be used explicitly, but usually the coder works on a higher abstraction level where they are sent automatically in the background.
 
 It's important to remember that connections and ojects created on the audio server (scsynth) cannot be dynamically changed unless you re-build the audio network. However, you can provide an interface for important parameters by means of arguments. Think of it as a hardware synth – for example a Minimoog – where certain knobs and switches makes selected, useful parameters available, but most of the inner components of the synth cannot be changed unless you re-build it.
+
+SuperCollider automatically declares the variables a-z at startup. These are called Interpreter variables and are useful for testing and quick examples. They are frequently in the docs and I will use them in the following examples. For larger projects it's better practice to declare variables yourself, using descriptive names (e.g. var myVariable;).
 */
 
-// the audio server is predefined in the variable s, so to boot it we run the line:
+// The audio server is predefined in the variable s, so to boot it we can run the line:
 s.boot;
 
-// to make a sound we define a synth and add it to the server
+// to make a sound we define a synth and add it to the server:
 (
 SynthDef(\myFirstSynth, {|freq = 200, amp = 0.1|
 	var sig;
