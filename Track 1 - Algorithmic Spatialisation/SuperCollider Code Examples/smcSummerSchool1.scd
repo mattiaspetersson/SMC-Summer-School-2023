@@ -70,7 +70,7 @@ x.free; // stop it
 (
 SynthDef(\myFirstSynth, {|freq = 200, amp = 0.1, gate = 1|
 	var sig, env;
-	env = EnvGen.kr(Env.asr(0.3, 1, 1.3), gate, doneAction: 2);
+	env = EnvGen.kr(Env.asr(0.3, 1, 1.3), gate, doneAction: 2); // check help for Done
 	sig = Saw.ar([freq, freq * 1.001, freq * 1.002, freq * 1.003], amp * env);
 	Out.ar(0, sig);
 }).add;

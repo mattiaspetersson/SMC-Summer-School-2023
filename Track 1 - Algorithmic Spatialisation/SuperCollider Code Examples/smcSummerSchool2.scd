@@ -25,6 +25,7 @@ SynthDef(\sample, {|buf, rate = 1|
 
 // play the sample loaded into the buffer
 x = Synth(\sample, [\buf, b]);
+x.set(\rate, 0.5);
 x.free;
 
 // improved version with separated channels and individual stereo panning of the left and right signals
@@ -67,8 +68,8 @@ r = Routine{
 			\outD, d[out+3]
 		);
 		x.set(
-			\panL, (i%100).linlin(0, 100, -1, 1),
-			\panR, (i%100).linlin(0, 100, 1, -1)
+			\panL, (i%100).linlin(0, 99, -1.0, 1.0),
+			\panR, (i%100).linlin(0, 99, 1.0, -1.0)
 		);
 		0.02.wait;
 	};

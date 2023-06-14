@@ -25,7 +25,8 @@ s.waitForBoot{
 	SynthDef(\LSfoaDecoder, {|foaInput|
 		var foa;
 		foa = In.ar(foaInput, 4);
-		Out.ar(0, KMHLSDome1h1pN.ar(*foa));
+		//Out.ar(0, KMHLSDome1h1pN.ar(*foa));
+		Out.ar(0, FoaDecode.ar(foa, FoaDecoderMatrix.kmhLillaSalen));
 	}).add;
 
 	// HRTF Decoder for Headphone monitoring

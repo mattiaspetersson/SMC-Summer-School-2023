@@ -45,7 +45,8 @@ s.waitForBoot{
 	SynthDef(\LSfoaDecoder, {|foaInput|
 		var foa;
 		foa = In.ar(foaInput, 4);
-		Out.ar(0, KMHLSDome1h1pN.ar(*foa));
+		//Out.ar(0, KMHLSDome1h1pN.ar(*foa));
+		Out.ar(0, FoaDecode.ar(foa, FoaDecoderMatrix.kmhLillaSalen));
 		// Note: the * before the foa array populates the decoder arguments one by one, using the array elements
 		// It could be explicitly written as KMHLSDome1h1pN.ar(foa[0], foa[1], foa[2], foa[3]);
 	}).add;
@@ -101,7 +102,7 @@ s.meter;
 // • angle: pi/2 = push to plane wave, 0 = omni directional
 // • azimuth: pi --> -pi
 // • elevation: -pi --> pi (effective range is 0 --> pi, since we don't have speakers below us here)
-~xform.set(\angle, pi/2, \azimuth, -0.24, \elevation, 0);
+~xform.set(\angle, pi/2, \azimuth, 0.15, \elevation, 0.1);
 
 // use FoaXformDisplay to learn more about what's going on!
 f = FoaXformDisplay();
